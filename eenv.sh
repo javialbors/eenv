@@ -6,7 +6,7 @@ eenv() {
   fi
 
   if [ ! -f "$env_file" ]; then
-    echo "✘ '$env_file' file was not found in this directory"
+    echo "✘ '$env_file' was not found in this directory"
     return 1
   fi
 
